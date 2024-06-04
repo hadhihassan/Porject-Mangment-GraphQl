@@ -1,5 +1,5 @@
 const express = require("express");
-// require("dotenv").config();
+require("dotenv").config();
 const { graphqlHTTP } = require("express-graphql")
 const colors = require("colors")
 const connectDb = require("./config/db.js")
